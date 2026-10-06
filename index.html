@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SSQ Estates — The Smart Property Platform for Modern Living</title>
+<meta name="description" content="SSQ Estates: buy, sell and rent exceptional villas, apartments and commercial property in Pakistan — faster.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ================= NAV ================= -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#home" class="logo"><span class="logo-mark">◈</span> SSQ Estates</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#features">Features</a>
+      <a href="#listings">Listings</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="#contact" class="login">Log in</a>
+      <a href="#contact" class="btn btn-light btn-sm">Sign up</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+  <div class="hero-grid">
+    <div class="hero-copy">
+      <a href="#listings" class="pill">⌕&nbsp; Try SSQ Property Search now!</a>
+      <h1>The smart property<br>platform for modern living</h1>
+      <p class="hero-sub">SSQ Estates helps you buy, sell and rent exceptional homes — faster.</p>
+      <div class="hero-cta">
+        <a href="#listings" class="btn btn-light">Get started for free <span>→</span></a>
+        <a href="#contact" class="btn btn-ghost">Request a demo</a>
+      </div>
+    </div>
+    <div class="hero-art">
+      <svg viewBox="0 0 400 400" class="hexspin" aria-hidden="true">
+        <defs>
+          <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="6" result="b"/>
+            <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+          </filter>
+        </defs>
+        <g filter="url(#glow)" fill="none" stroke="#fff" stroke-width="4">
+          <polygon points="200,30 346,115 346,285 200,370 54,285 54,115" opacity=".95"/>
+          <polygon points="200,52 326,125 326,275 200,348 74,275 74,125" opacity=".8" transform="rotate(12 200 200)"/>
+          <polygon points="200,74 306,135 306,265 200,326 94,265 94,135" opacity=".65" transform="rotate(24 200 200)"/>
+          <polygon points="200,96 286,145 286,255 200,304 114,255 114,145" opacity=".5" transform="rotate(36 200 200)"/>
+          <polygon points="200,118 266,155 266,245 200,282 134,245 134,155" opacity=".38" transform="rotate(48 200 200)"/>
+          <polygon points="200,140 246,165 246,235 200,260 154,235 154,165" opacity=".28" transform="rotate(60 200 200)"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+
+  <!-- Tilted dashboard preview -->
+  <div class="tilt-zone">
+    <div class="tilt">
+      <div class="dash">
+        <div class="dash-top"><span class="d">● ● ●</span><span class="dash-url">ssqestates.com/dashboard</span></div>
+        <div class="dash-body">
+          <aside class="dash-side">
+            <div class="ds-logo">◈ SSQ</div>
+            <a class="on">⌂ Dashboard</a><a>▤ Listings</a><a>◈ Deals</a><a>☺ Clients</a>
+          </aside>
+          <main class="dash-main">
+            <div class="dm-head"><b>Portfolio Overview</b><span class="chip">This month ▾</span></div>
+            <div class="dm-stats">
+              <div><span>Active listings</span><b>248</b></div>
+              <div><span>Deals closed</span><b>132</b></div>
+              <div><span>Total value</span><b>Rs 17.9 Cr</b></div>
+            </div>
+            <svg viewBox="0 0 400 90" class="spark" preserveAspectRatio="none">
+              <path d="M0,70 C30,60 45,75 70,55 C95,35 110,60 140,45 C170,30 185,55 215,40 C245,25 260,50 290,32 C320,15 350,35 400,20 L400,90 L0,90 Z" fill="rgba(255,255,255,.08)"/>
+              <path d="M0,70 C30,60 45,75 70,55 C95,35 110,60 140,45 C170,30 185,55 215,40 C245,25 260,50 290,32 C320,15 350,35 400,20" fill="none" stroke="#fff" stroke-width="2.5"/>
+            </svg>
+            <div class="dm-rows">
+              <div class="dm-row"><i>🏠</i><div><b>1 Kanal Designer Villa</b><span>DHA Phase 5, Islamabad</span></div><b class="r">Rs 8.5 Cr</b><span class="st ok">● Live</span></div>
+              <div class="dm-row"><i>🏢</i><div><b>Skyline Luxury Apartment</b><span>Bahria Town, Rawalpindi</span></div><b class="r">Rs 2.4 Cr</b><span class="st ok">● Live</span></div>
+              <div class="dm-row"><i>🌃</i><div><b>Rooftop Penthouse</b><span>E-11, Islamabad</span></div><b class="r">Rs 6.8 Cr</b><span class="st warn">● Needs your review</span></div>
+            </div>
+          </main>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= LOGOS / STATS ================= -->
+<section class="strip">
+  <div class="container strip-grid">
+    <div class="stat"><b data-count="1200">0</b><span>Verified listings</span></div>
+    <div class="stat"><b data-count="850">0</b><span>Deals closed</span></div>
+    <div class="stat"><b data-count="15">0</b><span>Years of trust</span></div>
+    <div class="stat"><b data-count="98">0</b><span>% Client satisfaction</span></div>
+  </div>
+</section>
+
+<!-- ================= LISTINGS ================= -->
+<section class="section" id="listings">
+  <div class="container">
+    <p class="kicker">Curated portfolio</p>
+    <h2>Featured listings</h2>
+    <p class="sub">Exceptional properties, physically verified by our team.</p>
+    <div class="cards">
+      <article class="card"><div class="ph"><img src="images/villa.jpg" alt="Designer villa"><span class="price">Rs 8.5 Cr</span></div><div class="cb"><h3>1 Kanal Designer Villa</h3><p>DHA Phase 5, Islamabad · 6 Bed · 7 Bath</p></div></article>
+      <article class="card"><div class="ph"><img src="images/apartment.jpg" alt="Luxury apartment"><span class="price">Rs 2.4 Cr</span></div><div class="cb"><h3>Skyline Luxury Apartment</h3><p>Bahria Town, Rawalpindi · 3 Bed · 4 Bath</p></div></article>
+      <article class="card"><div class="ph"><img src="images/penthouse.jpg" alt="Penthouse terrace"><span class="price">Rs 6.8 Cr</span></div><div class="cb"><h3>Rooftop Penthouse</h3><p>E-11, Islamabad · 4 Bed · 5 Bath</p></div></article>
+      <article class="card"><div class="ph"><img src="images/townhouse.jpg" alt="Modern townhouses"><span class="price">Rs 3.2 Cr</span></div><div class="cb"><h3>Modern Townhouse</h3><p>DHA Phase 2, Islamabad · 5 Bed · 6 Bath</p></div></article>
+      <article class="card"><div class="ph"><img src="images/plaza.jpg" alt="Commercial building"><span class="price">Rs 12 Cr</span></div><div class="cb"><h3>Commercial Tower</h3><p>Gulberg Greens · 4 Floors · Parking</p></div></article>
+      <article class="card"><div class="ph"><img src="images/interior.jpg" alt="Designer interior"><span class="price">Rs 5.5 Cr</span></div><div class="cb"><h3>SSQ Signature Residence</h3><p>Park View City · 1 Kanal · Park Facing</p></div></article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FEATURES ================= -->
+<section class="section" id="features">
+  <div class="container">
+    <p class="kicker">Why SSQ</p>
+    <h2>Everything property,<br>in one place</h2>
+    <div class="feat-grid">
+      <div class="feat"><div class="fi">✓</div><h3>100% verified listings</h3><p>Every property is physically inspected and legally vetted before it goes live. No surprises, ever.</p></div>
+      <div class="feat"><div class="fi">◈</div><h3>Smart valuation</h3><p>Data-driven pricing against live market comparables — buy fair, sell at the true value.</p></div>
+      <div class="feat"><div class="fi">⚖</div><h3>Legal, handled</h3><p>Documentation, transfer and registration managed end-to-end by our in-house legal desk.</p></div>
+      <div class="feat"><div class="fi">◐</div><h3>Portfolio tracking</h3><p>Watch your property's value grow with live market insights on your personal dashboard.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section class="section" id="services">
+  <div class="container">
+    <p class="kicker">Services</p>
+    <h2>Buy. Sell. Rent. Manage.</h2>
+    <div class="svc-row">
+      <a class="svc" href="#contact"><b>Buy →</b><p>Guided viewings of verified homes matched to your budget and lifestyle.</p></a>
+      <a class="svc" href="#contact"><b>Sell →</b><p>Cinematic marketing and a serious buyer network for maximum value.</p></a>
+      <a class="svc" href="#contact"><b>Rent →</b><p>Handpicked rentals with flexible terms and zero hidden charges.</p></a>
+      <a class="svc" href="#contact"><b>Manage →</b><p>Complete property management while your asset quietly grows.</p></a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="section" id="about">
+  <div class="container about-grid">
+    <img src="images/agent.jpg" alt="SSQ Estates consultant" class="about-img">
+    <div>
+      <p class="kicker left">About SSQ Estates</p>
+      <h2 class="left">Property decisions,<br>made simple</h2>
+      <p class="about-p">SSQ Estates blends deep local expertise with a modern, data-driven platform. Every listing is verified, every price is market-checked, and every client gets a dedicated consultant from search to keys.</p>
+      <ul class="ticks"><li>— Dispute-free, verified inventory</li><li>— Transparent pricing, no hidden charges</li><li>— Overseas Pakistani desk</li><li>— After-sale support that answers</li></ul>
+      <a href="#contact" class="btn btn-light">Talk to an expert <span>→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TESTIMONIAL ================= -->
+<section class="section">
+  <div class="container">
+    <div class="quote">
+      <p class="stars">★★★★★</p>
+      <p class="q">"SSQ found us our dream villa in DHA within two weeks. Transparent dealing, zero stress — the whole process felt effortless."</p>
+      <p class="who">— Shahzaib Khan · Villa Owner, DHA Islamabad</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="cta" id="contact">
+  <div class="container">
+    <div class="cta-box">
+      <h2>Your dream property is<br>one visit away</h2>
+      <p>Book a free consultation or a private viewing — no obligation, just honest advice.</p>
+      <form class="cta-form" id="leadForm">
+        <input type="text" placeholder="Your name" required>
+        <input type="tel" placeholder="Phone / WhatsApp" required>
+        <button class="btn btn-light" type="submit">Book a viewing</button>
+      </form>
+      <p class="note" id="formNote">+92 300 0000000 · info@ssqestates.com · DHA Phase 5, Islamabad</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container foot-grid">
+    <a href="#home" class="logo"><span class="logo-mark">◈</span> SSQ Estates</a>
+    <nav><a href="#listings">Listings</a><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+    <p class="copy">© 2026 SSQ Estates · Demo by AKCLNT</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
